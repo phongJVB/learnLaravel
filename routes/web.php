@@ -17,7 +17,17 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Router gọi đến trang chủ của website
+Route::get('/home','PageController@getIndex')->name('home');
+
+// Router gọi đến trang product của website
+Route::get('/product','PageController@getProduct')->name('product');
+
+// Router gọi đến trang shop của website
+Route::get('/shop','PageController@getShop')->name('shop');
+
+// Router gọi đến trang blog của website
+Route::get('/blog','PageController@getBlog')->name('blog');
 
 //Gọi đến MainController function index để trả về view dangnhap.php
 Route::get('/main','MainController@index')->name('main');
