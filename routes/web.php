@@ -29,6 +29,19 @@ Route::get('/shop','PageController@getShop')->name('shop');
 // Router gọi đến trang blog của website
 Route::get('/blog','PageController@getBlog')->name('blog');
 
+// Router gọi đến trang blogSingle của website
+Route::get('/blog_single','PageController@getBlogSingle')->name('blogSingle');
+
+// Router gọi đến trang Regular của website
+Route::get('/regular','PageController@getRegular')->name('regular');
+
+// Router gọi đến trang Contact của website
+Route::get('/contact','PageController@getContact')->name('contact');
+
+// Router gọi đến trang Cart của website
+Route::get('/cart','PageController@getCart')->name('cart');
+
+// ------------------------------------------------------------------
 //Gọi đến MainController function index để trả về view dangnhap.php
 Route::get('/main','MainController@index')->name('main');
 

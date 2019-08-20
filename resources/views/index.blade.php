@@ -6,6 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="OneTech shop project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Link CSS Commons -->
 <link rel="stylesheet" type="text/css" href="{{ asset('frontEnd/styles/bootstrap4/bootstrap.min.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('frontEnd/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('frontEnd/plugins/OwlCarousel2-2.2.1/owl.carousel.css') }}">
@@ -40,7 +41,7 @@
 	@include('layouts/footer')
 
 </div>
-
+<!-- Link JS Commons -->
 <script src="{{ asset('frontEnd/js/jquery-3.3.1.min.js') }}"></script>
 <script src="{{ asset('frontEnd/styles/bootstrap4/popper.js') }}"></script>
 <script src="{{ asset('frontEnd/styles/bootstrap4/bootstrap.min.js') }}"></script>

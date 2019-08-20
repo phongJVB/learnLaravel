@@ -414,7 +414,7 @@ $(document).ready(function()
     	map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
     	// Use an image for a marker
-		var image = 'images/marker.png';
+		var image = 'frontEnd/images/marker.png';
 		var marker = new google.maps.Marker(
 		{
 			position: myLatlng,

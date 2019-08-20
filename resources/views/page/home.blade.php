@@ -7,6 +7,8 @@
 @endsection
 
 @section('content')
+
+	<!-- Banner -->
 	<div class="banner">
 		<div class="banner_background" style="background-image:url(frontEnd/images/banner_background.jpg)"></div>
 		<div class="container fill_height">

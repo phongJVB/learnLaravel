@@ -21,4 +21,20 @@ class PageController extends Controller
     public function getBlog(){
     	return view('page.blog');
     }
+
+    public function getBlogSingle(){
+        return view('page.blogSingle');
+    }
+
+    public function getRegular(){
+        return view('page.regular');
+    }
+
+    public function getContact(){
+        return view('page.contact');
+    }
+
+    public function getCart(){
+        return view('page.cart');
+    }
 }
