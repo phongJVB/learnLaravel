@@ -1,4 +1,11 @@
 @extends('index')
+
+@section('css')
+<link rel="stylesheet" type="text/css" href="{{ asset('frontEnd/plugins/slick-1.8.0/slick.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('frontEnd/styles/main_styles.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('frontEnd/styles/responsive.css') }}">
+@endsection
+
 @section('content')
 	<div class="banner">
 		<div class="banner_background" style="background-image:url(frontEnd/images/banner_background.jpg)"></div>
@@ -3919,10 +3926,9 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- Recently Viewed -->	
 	@endsection
-
+	
+	<!-- Recently Viewed -->	
 	@section('recentlyViewed')
 		@include('/layouts/recentlyViewed')
 	@endsection
@@ -3930,4 +3936,9 @@
 	<!-- Brands -->
 	@section('brands')
 		@include('/layouts/brands')
+	@endsection
+
+	@section('js')
+	<script src="{{ asset('frontEnd/plugins/slick-1.8.0/slick.js') }}"></script>
+	<script src="{{ asset('frontEnd/js/custom.js') }}"></script>
 	@endsection
